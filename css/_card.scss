@@ -1,5 +1,4 @@
 .card {
-	font-family: 'Outfit', sans-serif;
 	background-color: hsl(216, 50%, 16%);
 	width: 350px;
 	padding: 24px;
@@ -61,6 +60,11 @@
 	#nft-metadata {
 		li { display: inline;}
 		padding-bottom: 15px;
+
+		img {
+			position: relative;
+			top: 0.15rem; 
+		}
 	}
 
 	#nft-description {
