@@ -33,15 +33,6 @@ Users should be able to:
 - Solution URL: [https://github.com/samuel-s-marques/NFT-preview-card-component](https://github.com/samuel-s-marques/NFT-preview-card-component)
 - Live Site URL: [https://samuel-s-marques.github.io/NFT-preview-card-component/](https://samuel-s-marques.github.io/NFT-preview-card-component/)
 
-## My process
-
-### Built with
-
-- Semantic HTML5 markup
-- SCSS
-- Flexbox
-- Mobile-first workflow
-
 ## Author
 
 - Website - [Samuel Marques' portfolio](https://samuel-s-marques.github.io/)
