@@ -71,6 +71,7 @@ body {
   width: 100%;
   height: 99%;
   display: none;
+  cursor: pointer;
 }
 
 .card #nft-image-overlay-icon {
@@ -79,6 +80,7 @@ body {
   inset: 0;
   position: absolute;
   margin: auto;
+  cursor: pointer;
 }
 
 .card #nft-title {
@@ -91,6 +93,7 @@ body {
 
 .card #nft-title:hover {
   color: #00fff7;
+  cursor: pointer;
 }
 
 .card #nft-metadata {
@@ -154,6 +157,7 @@ body {
 
 .card #nft-creator #name span:hover {
   color: #00fff7;
+  cursor: pointer;
 }
 
 .attribution {
