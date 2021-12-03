@@ -13,46 +13,54 @@ body {
   background: #0d192b;
 }
 
-.cards {
+.container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  /* establish flex container */
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /* make main-axis vertical */
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 100%;
+  /* align items vertically, in this case */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* align items horizontally, in this case */
+  height: 100vh;
+  /* for demo purposes */
 }
 
 .card {
   font-family: 'Outfit', sans-serif;
   background-color: #14253d;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 20%;
-          flex: 0 1 20%;
-  width: 300px;
-  padding: 30px;
+  width: 350px;
+  padding: 24px;
   border-radius: 4%;
+  -webkit-box-shadow: 0px 31px 10px 11px #0d192b;
+          box-shadow: 0px 31px 10px 11px #0d192b;
 }
 
-.card .container {
+.card .nft-container {
   position: relative;
 }
 
-.card .container:hover #nft-image-overlay {
+.card .nft-container:hover #nft-image-overlay {
   display: block;
   background: #8bacda;
   opacity: 0.7;
 }
 
-.card .container:hover #nft-image-overlay-icon {
+.card .nft-container:hover #nft-image-overlay-icon {
   display: block;
 }
 
 .card #nft-image {
-  width: -moz-available;
+  width: 100%;
   border-radius: 2.5%;
 }
 
@@ -78,6 +86,7 @@ body {
   font-weight: 600;
   padding-bottom: 15px;
   padding-top: 15px;
+  font-size: 24px;
 }
 
 .card #nft-title:hover {
@@ -121,6 +130,7 @@ body {
 
 .card #nft-creator {
   margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 .card #nft-creator #avatar {
@@ -144,5 +154,18 @@ body {
 
 .card #nft-creator #name span:hover {
   color: #00fff7;
+}
+
+.attribution {
+  color: white;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: #00fff7;
+}
+
+.attribution a:hover {
+  color: #8bacda;
 }
 /*# sourceMappingURL=styles.css.map */
