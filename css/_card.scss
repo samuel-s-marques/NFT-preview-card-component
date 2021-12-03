@@ -3,7 +3,7 @@
 	width: 350px;
 	padding: 24px;
 	border-radius: 4%;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 	box-shadow: 0px 31px 10px 11px hsl(217, 54%, 11%);
 
 	.nft-container {
@@ -48,8 +48,8 @@
 		color: hsl(0, 0%, 100%);
 		font-weight: 600;
 		padding-bottom: 15px;
-		padding-top: 15px;
-		font-size: 24px;
+		padding-top: 20px;
+		font-size: 20px;
 
 		&:hover {
 			color: hsl(178, 100%, 50%);
@@ -57,21 +57,21 @@
 		}
 	}
 
+	#nft-description {
+		color: hsl(215, 51%, 70%);
+		font-weight: 300;
+		font-size: 18px;
+		padding-bottom: 20px;
+	}
+
 	#nft-metadata {
 		li { display: inline;}
-		padding-bottom: 15px;
+		padding-bottom: 20px;
 
 		img {
 			position: relative;
 			top: 0.15rem; 
 		}
-	}
-
-	#nft-description {
-		color: hsl(215, 51%, 70%);
-		font-weight: 300;
-		font-size: 18px;
-		padding-bottom: 15px;
 	}
 
 	#nft-price {
@@ -93,13 +93,13 @@
 	}
 
 	#nft-creator {
-		margin-top: 15px;
+		margin-top: 20px;
 		margin-bottom: 10px;
 
 		#avatar {
 			border: 1px solid hsl(0, 0%, 100%);
 			border-radius: 50%;
-			width: 40px;
+			width: 35px;
 			float: left;
 		}
 
@@ -107,7 +107,7 @@
 			color: hsl(215, 51%, 70%);
 			font-weight: 400;
 			display: inline;
-			padding-left: 15px;
+			padding-left: 20px;
 			line-height: 35px;
 	
 			span {

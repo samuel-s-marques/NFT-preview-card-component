@@ -40,7 +40,7 @@ body {
   width: 350px;
   padding: 24px;
   border-radius: 4%;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   -webkit-box-shadow: 0px 31px 10px 11px #0d192b;
           box-shadow: 0px 31px 10px 11px #0d192b;
 }
@@ -87,8 +87,8 @@ body {
   color: white;
   font-weight: 600;
   padding-bottom: 15px;
-  padding-top: 15px;
-  font-size: 24px;
+  padding-top: 20px;
+  font-size: 20px;
 }
 
 .card #nft-title:hover {
@@ -96,8 +96,15 @@ body {
   cursor: pointer;
 }
 
+.card #nft-description {
+  color: #8bacda;
+  font-weight: 300;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
 .card #nft-metadata {
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 
 .card #nft-metadata li {
@@ -107,13 +114,6 @@ body {
 .card #nft-metadata img {
   position: relative;
   top: 0.15rem;
-}
-
-.card #nft-description {
-  color: #8bacda;
-  font-weight: 300;
-  font-size: 18px;
-  padding-bottom: 15px;
 }
 
 .card #nft-price {
@@ -137,14 +137,14 @@ body {
 }
 
 .card #nft-creator {
-  margin-top: 15px;
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 
 .card #nft-creator #avatar {
   border: 1px solid white;
   border-radius: 50%;
-  width: 40px;
+  width: 35px;
   float: left;
 }
 
@@ -152,7 +152,7 @@ body {
   color: #8bacda;
   font-weight: 400;
   display: inline;
-  padding-left: 15px;
+  padding-left: 20px;
   line-height: 35px;
 }
 
